@@ -1,4 +1,4 @@
-@media (max-width: 480px){
+@media (max-width: 768px){
 body{
     font-family: Aeial, Arial, sans-serif;
     background-color: #fefefe;
@@ -74,7 +74,9 @@ header h2{
     height: 150;
     margin-bottom: 20px;
     max-width: 800;
-    margin: 20px auto;
+    margin: 10px;
+    padding:15px;
+    flex: 1 1 300px;
 }
 .box:hover{
     transform:scale(1.05);
